@@ -1,0 +1,94 @@
+<html>
+
+<head>
+
+  <!--Hello-->
+  <title>Denis Makhlin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav>
+
+    <ul>
+
+      <img id="logo" src="images/logo-left-01.png">
+
+      <span>
+        <li><a href="#jumbotron">Home</a></li>
+        <li><a href="#section-2">Skills</a></li>
+        <li><a href="#section-3">About</a></li>
+        <li><a id="contact" href="#section-4">Contact</a></li>
+      </span>
+    </ul>
+
+  </nav>
+
+  <div id="jumbotron" class="center">
+    <h1 id="main-section-title">Hi I'm Denis Makhlin</h1>
+    <h2 id="sub-text">I'm a Designer, Developer, and Music Lover</h2>
+    <p>I am an exceptionally motivated Full Stack Product Designer with a true dual passion for people and technology. My goal is to improve the lives of others through design and am constantly looking to learn new things every day.</p>
+      <button><a href="#section-3">Learn More</a></button>
+  </div>
+  <div id="section-2" class="center">
+    <h1 class="section-title">Skills</h1>
+    <div class="row">
+      <div class="column">
+        <img class="icon-column" src="images/001-idea.png">
+        <h2 class="header-column">Research</h2>
+      </div>
+      <div class="column">
+        <img class="icon-column" src="images/002-research.png">
+        <h2 class="header-column">Collaboration</h2>
+      </div>
+      <div class="column">
+        <img class="icon-column" src="images/003-chat.png">
+        <h2 class="header-column">Communication</h2>
+      </div>
+    </div>
+  </div>
+  <div id="section-3" class="center">
+    <h1 class="section-title">A Little About Myself</h1>
+    <img src="images/portfolio.webp" id="portfolio-pic">
+    <p>Aside from being a Bachelor of Science in Visual Communication Design student, I bring with me over three years of practical experience gained through various freelance and job opportunities, as well as my own radio station’s website and app
+      building and maintenance. Through these opportunities, I honed and practiced not only my technical skills, but also my interpersonal, communication, teamwork, and organizational skills, preparing me for this moment.
+
+      A little over a year ago, I decided to establish the HydeFM radio station, with a desire to bring people together through music. Doing this, I was able to combine the two things I love the most – technology and people. I utilized WordPress to
+      build a functional website where you can listen, watch, browse shows and content, and interact with others. I used HTML, CSS, and JavaScript for front-end content, and PHP for back-end editing. I’m maintaining the website daily, from content
+      creation and review, through error checks and fixes, design, and functionality updates, and more. </p>
+  </div>
+  <div id="section-4" class="center">
+    <h1 class="section-title">Contact Me</h1>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <p id="footer-text">&copy Denis Makhlin 2021</p>
+  </div>
+</body>
+
+
+</html>
